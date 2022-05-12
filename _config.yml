@@ -98,6 +98,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
+# theme: casper
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +106,9 @@ deploy:
   type: git
   repo: git@github.com:hurnic29/try-hexo-deploy.git
   branch: main
+
+# Working with [hexo-generator-feed]
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
